@@ -50,3 +50,35 @@ function getAkanName() {
 
     }
 }
+
+function getYear() {
+    let yearOfBirth = document.getElementById("year-input").value;
+    var yy = yearOfBirth.slice(2, 4)
+    var yr = parseInt(yy);
+    return yr;
+}
+
+function getCentury() {
+    let yearOfBirth = document.getElementById("year-input").value;
+    var cc = yearOfBirth.slice(0, 2)
+    var CC = parseInt(cc);
+    return CC;
+}
+
+function getMonth() {
+    let monthOfBirth = document.getElementById("month-of-birth").value;
+    return monthOfBirth;
+
+}
+
+function getDay() {
+    let dayOfBirth = document.getElementById("day-input").value;
+    var day = parseInt(dayOfBirth);
+    if (day > 0 && day < 31) {
+        return day;
+
+    } else {
+        alert("Invalid date")
+    }
+
+}
