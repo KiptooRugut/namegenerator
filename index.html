@@ -71,7 +71,42 @@
                 <p>This Akan Name Generator application takes your birthday details and calculates the day of the week you were born and outputs your Akan Name according to your specified gender. <br> <a class="find_more" href="https://en.wikipedia.org/wiki/Akan_names"
                         target="_blank">Akan names</a>are derived from Ghanian culture.</p>
                 <p style="padding-bottom:30px;padding-top:30px;color: deepskyblue;font-weight: bold;"> <em>To find out what your Akan name is, proceed to filling the form below and clicking the generate name button.</p>
-
+                    
+                    <form class="myform" id="myForm">
+                        <label for="year-of-birth">
+                Year:
+                <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+              </label>
+                        <label for="month-of-birth">
+                Month:
+                <select name="month-of-birth" id="month-of-birth" class="form-select">
+                    <option value="0">January</option>
+                    <option value="3">February</option>
+                    <option value="3">March</option>
+                    <option value="6">April</option>
+                    <option value="1">May</option>
+                    <option value="4">June</option>
+                    <option value="6">July</option>
+                    <option value="2">August</option>
+                    <option value="5">September</option>
+                    <option value="0">October</option>
+                    <option value="3">Novermber</option>
+                    <option value="5" selected>December</option>
+                    </select> 
+                <!-- <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required> -->
+              </label>
+                        <label for="day-of-birth">
+                Day:
+                <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+              </label>
+                        <br>
+                        <label for="gender">
+                <p>Select your gender: </p>
+                <select name="gender" id="gender" class="form-select">
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    </select> 
+    
     <script src="js/script.js"></script>
 </body>
 
