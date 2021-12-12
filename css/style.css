@@ -174,3 +174,10 @@ a:hover {
 .myform {
     font-size: 28px;
 }
+
+#year-input {
+    border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    box-shadow: 2px 2px #000000;
+}
