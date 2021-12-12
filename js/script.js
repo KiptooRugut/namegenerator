@@ -14,3 +14,20 @@ function getAkanName() {
 
     d = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7
     d = Math.trunc(d);
+
+    if (getGender() == 1) {
+        if (d == 0) {
+            document.getElementById("output").innerHTML = "Hey your Akan name is " + male[0] + " because you were born a male on a Sunday.";
+        } else if (d == 1) {
+            document.getElementById("output").innerHTML = "Hey your Akan name is " + male[1] + " because you were born a male on a Monday.";
+        } else if (d == 2) {
+            document.getElementById("output").innerHTML = "Hey your Akan name is " + male[2] + " because you were born a male on a Tuesday.";
+        } else if (d == 3) {
+            document.getElementById("output").innerHTML = "Hey your Akan name is " + male[3] + " because you were born a male on a Wednesday.";
+        } else if (d == 4) {
+            document.getElementById("output").innerHTML = "Hey your Akan name is " + male[4] + " because you were born a male on a Thursday.";
+        } else if (d == 5) {
+            document.getElementById("output").innerHTML = "Hey your Akan name is " + male[5] + " because you were born a male on a Friday.";
+        } else {
+            document.getElementById("output").innerHTML = "Hey your Akan name is " + male[6] + " because you were born a male on a Saturday.";
+        }
