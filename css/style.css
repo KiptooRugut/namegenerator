@@ -161,3 +161,16 @@ p {
     box-shadow: 2px 2px #3b3b3b;
     border-radius: 0.5%;
 }
+
+.find_more {
+    font-style: italic;
+    color: rgb(28, 161, 1);
+}
+
+a:hover {
+    color: yellow;
+}
+
+.myform {
+    font-size: 28px;
+}
