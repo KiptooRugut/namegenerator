@@ -82,3 +82,8 @@ function getDay() {
     }
 
 }
+
+function getGender() {
+    let gender = document.getElementById("gender").value;
+    return gender;
+}
