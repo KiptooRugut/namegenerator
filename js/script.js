@@ -31,3 +31,22 @@ function getAkanName() {
         } else {
             document.getElementById("output").innerHTML = "Hey your Akan name is " + male[6] + " because you were born a male on a Saturday.";
         }
+    } else if (getGender() == 2) {
+        if (d == 0) {
+            document.getElementById("output").innerHTML = "Hey your Akan name is " + female[0] + " because you were born a female on a Sunday.";
+        } else if (d == 1) {
+            document.getElementById("output").innerHTML = "Hey your Akan name is " + female[1] + " because you were born a female on a Monday.";
+        } else if (d == 2) {
+            document.getElementById("output").innerHTML = "Hey your Akan name is " + female[2] + " because you were born a female on a Tuesday.";
+        } else if (d == 3) {
+            document.getElementById("output").innerHTML = "Hey your Akan name is " + female[3] + " because you were born on a female a Wednesday.";
+        } else if (d == 4) {
+            document.getElementById("output").innerHTML = "Hey your Akan name is " + female[4] + " because you were born a female on a Thursday.";
+        } else if (d == 5) {
+            document.getElementById("output").innerHTML = "Hey your Akan name is " + female[5] + " because you were born a female on a Friday.";
+        } else {
+            document.getElementById("output").innerHTML = "Hey your Akan name is " + female[6] + " because you were born a female on a Saturday.";
+        }
+
+    }
+}
