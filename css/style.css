@@ -195,3 +195,33 @@ a:hover {
     height: 20px;
     box-shadow: 2px 2px #000000;
 }
+
+#get-name {
+    border-radius: 5px;
+    color: #000000;
+    background-color: orange;
+    text-align: center;
+    border: solid 1px #000000;
+    width: 180px;
+    height: 32px;
+    font-size: 18px;
+    box-shadow: 4px 4px #6e6a6a;
+}
+
+.clear {
+    border-radius: 5px;
+    color: #000000;
+    background-color: orange;
+    text-align: center;
+    border: solid 1px #000000;
+    width: 180px;
+    height: 32px;
+    font-size: 18px;
+    box-shadow: 4px 4px #6e6a6a;
+}
+
+#result {
+    font-size: 28px;
+    text-align: center;
+    color: forestgreen;
+}
