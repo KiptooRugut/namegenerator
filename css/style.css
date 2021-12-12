@@ -52,3 +52,29 @@ nav ul li a {
 nav ul li a:hover {
     color: red;
 }
+
+section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    height: 100%;
+}
+
+.homehead {
+    background-color: lightgray;
+    color: black;
+    margin: 40px 0px 0px 420px;
+    width: 900px;
+    height: 250px;
+    padding: 25px;
+}
+
+.homehead h1 {
+    color: green;
+    font-size: 40px;
+}
+
+.homehead p {
+    font-size: 20px;
+    font-weight: 500;
+}
