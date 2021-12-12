@@ -8,3 +8,6 @@ function getAkanName() {
     YY = getYear();
     MM = getMonth();
     DD = getDay();
+
+
+    var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
