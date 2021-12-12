@@ -188,3 +188,10 @@ a:hover {
     height: 20px;
     box-shadow: 2px 2px #000000;
 }
+
+#day-input {
+    border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    box-shadow: 2px 2px #000000;
+}
